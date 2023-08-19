@@ -1,0 +1,16 @@
+interaccion con el usuario:
+la semantica sirve para ayudar el auto complementar
+
+tarea de invertigacion 
+
+como funcionan los radios y los checkpoints  
+como se captura el valor que el usuario a seleccionado 
+
+
+TAREA PORTAFOLIO 
+es
+
+elegir un tema a seleccion lobre, vamos a estructurar un sitio web
+
+3 paginas del sitio web que esten enlazadas(de ida y vuelta) y una 4 pagina  con interacion del usuario, comentarios 
+tiene que tener radio. tiene que tener imagenes
