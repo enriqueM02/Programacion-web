@@ -3,30 +3,57 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white; 
 }
 
-header, nav, main, footer {
+header {
+    background-color: black;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Estilos de navegación */
-nav ul {
+/* Estilo del logo.png */
+header img {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+/* Estilo del menu */
+.menu-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.menu-box h2 {
+    margin: 0;
+}
+
+.menu-box nav ul {
     list-style: none;
     padding: 0;
+    display: flex; /* Mostrar las opciones en forma horizontal */
+    justify-content: center; /* Centrar las opciones horizontalmente */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+.menu-box nav ul li {
+    margin: 0 15px; /* Espaciado entre las opciones */
 }
 
-/* Estilos de botones */
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
+.menu-box nav ul li a {
+    text-decoration: none;
     color: white;
-    border: none;
-    cursor: pointer;
+    font-weight: bold;
 }
 
-/* Resto de estilos según tu preferencia */
+/* Resto de tus estilos */
