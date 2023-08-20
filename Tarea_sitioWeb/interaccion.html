@@ -2,33 +2,142 @@
 <html>
 
 <head>
-    <title>Interacción</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OM Viajes Seguros</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
+
     <header>
-        <h1>Página de Interacción</h1>
+        <img src="./Imagenes/logo.png" alt="Logo de la empresa" width="300" height="150">
+        <img src="./Imagenes/fondo3.jpg" alt="Fondo para embellecer" width="1000" height="250">
+
+        <nav>
+            <div class="menu-box">
+                <div class="menu-box">
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Nuestros servicios</a>
+                    <a href="cotizar.html">Cotiza</a>
+                    <a href="redes.html">Nuestras redes sociales</a>
+                    <a href="quienes_somos.html">Quiénes Somos</a>
+                    <a href="interaccion.html">Interacción</a>
+        </nav>
+        </div>
     </header>
 
-    <div class="menu-box">
-        <h2>Menú</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pagina1.html">Página 1</a></li>
-                <li><a href="pagina2.html">Página 2</a></li>
-                <li><a href="pagina3.html">Página 3</a></li>
-            </ul>
-        </nav>
-    </div>
 
-    <main>
-        <h2>Interactúa con el Usuario</h2>
-        <button id="saludoBtn">Saludar</button>
-        <p id="mensaje"></p>
+
+
+    <main class="text-section">
+        <h1>Ayudanos a mejorar</h1>
+        <p>En <b>MONTAÑA O MAR</b>, nuestra prioridad son nuestros usuarios. Por esta razón, te invitamos cordialmente a
+            completar este cuestionario que nos permitirá conocer a fondo tu experiencia al navegar por nuestro sitio
+            web. Tu opinión es invaluable para nosotros y nos ayudará a mejorar continuamente</p>
+
+
+
+        <div class="rating-scale">
+            <p>¿Cómo describirías tu experiencia general con nuestra agencia de viajes?</p>
+
+            <input type="radio" name="rating" id="malo" value="1">
+            <label for="malo">Malo</label>
+
+            <input type="radio" name="rating" id="regular" value="2">
+            <label for="regular">Regular</label>
+
+            <input type="radio" name="rating" id="normal" value="3">
+            <label for="normal">Normal</label>
+
+            <input type="radio" name="rating" id="bueno" value="4">
+            <label for="bueno">Bueno</label>
+
+            <input type="radio" name="rating" id="excelente" value="5">
+            <label for="excelente">Excelente</label>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Cómo calificarías la calidad de la planificación y organización de tu viaje?</p>
+
+            <input type="radio" name="rating" id="malo" value="1">
+            <label for="malo">Malo</label>
+
+            <input type="radio" name="rating" id="regular" value="2">
+            <label for="regular">Regular</label>
+
+            <input type="radio" name="rating" id="normal" value="3">
+            <label for="normal">Normal</label>
+
+            <input type="radio" name="rating" id="bueno" value="4">
+            <label for="bueno">Bueno</label>
+
+            <input type="radio" name="rating" id="excelente" value="5">
+            <label for="excelente">Excelente</label>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Nuestro personal te brindó la asistencia necesaria durante tu viaje? ¿Cómo fue tu interacción con ellos?
+            </p>
+
+            <input type="radio" name="rating" id="malo" value="1">
+            <label for="malo">Malo</label>
+
+            <input type="radio" name="rating" id="regular" value="2">
+            <label for="regular">Regular</label>
+
+            <input type="radio" name="rating" id="normal" value="3">
+            <label for="normal">Normal</label>
+
+            <input type="radio" name="rating" id="bueno" value="4">
+            <label for="bueno">Bueno</label>
+
+            <input type="radio" name="rating" id="excelente" value="5">
+            <label for="excelente">Excelente</label>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Recomendarías nuestra agencia de viajes a otros?</p>
+
+            <input type="radio" name="rating" id="si" value="6">
+            <label for="si">Si</label>
+
+            <input type="radio" name="rating" id="no" value="7">
+            <label for="no">No</label>
+            <p>¿Por qué?</p>
+            <form act ion="">
+                <input type="text">
+            </form>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Tienes algún consejo o sugerencia para mejorar nuestros servicios?</p>
+            <form act ion="">
+                <input type="text">
+            </form>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Tienes algún consejo o sugerencia para mejorar nuestros servicios?</p>
+            <form act ion="">
+                <input type="text">
+            </form>
+        </div>
+
+        <div class="rating-scale">
+            <p>¿Qué te gustaría destacar en particular sobre tu experiencia con nosotros?</p>
+            <form act ion="">
+                <input type="text">
+            </form>
+        </div>
+
+        <button onclick="alert('Enviado :D')">
+            Enviar
+        </button>
+
+
     </main>
+
 </body>
 
 </html>

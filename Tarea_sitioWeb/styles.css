@@ -3,16 +3,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white; 
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
-    background-color: black;
+    background-color: #000000;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Agregar un margen inferior al encabezado */
 }
 
 /* Estilo del logo.png */
@@ -21,39 +24,107 @@ header img {
     margin: 0;
 }
 
-/* Estilo del menu */
+
+/* Estilos del menú */
 .menu-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #000000;
-    border-radius: 3px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 400px;
-    max-height: 300px;
-    overflow-y: auto;
-    margin: 0 auto; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.menu-box h2 {
-    margin: 0;
-}
-
-.menu-box nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex; /* Mostrar las opciones en forma horizontal */
-    justify-content: center; /* Centrar las opciones horizontalmente */
-}
-
-.menu-box nav ul li {
-    margin: 0 15px; /* Espaciado entre las opciones */
-}
-
-.menu-box nav ul li a {
+.menu-box a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Resto de tus estilos */
+.menu-box a:hover {
+    background-color: #0e6e86;
+    color: #3e2fbe;
+}
+
+
+
+
+
+
+/* Estilos de la sección de bienvenida */
+.text-section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.text-section h1 {
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    color: #242121;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+/*preguntas*/
+
+.rating-scale {
+    background-color: #ede6e6;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.rating-scale p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+
+
+}
+
+
+/*imagen carros*/
+
+.cotizar-option{
+    background-color: #d0d8dcfd;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+label img {
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    margin-left: 10px; /* Agrega un espacio entre el texto y la imagen */
+}
+
+/*contactar*/
+
+.contact{
+    background-color: #6aa59efd;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 40px;
+}
